@@ -9,7 +9,8 @@ import CreateSale from "../pages/sales/CreateSale";
 
 import ProtectedRoute from "./ProtectedRoute";
 import DashboardLayout from "../layouts/DashboardLayout";
-import ProductList from "../pages/product/AddProduct";
+import ProductList from "../pages/product/ProductList";
+ 
  
 
 const AppRoutes = () => {
