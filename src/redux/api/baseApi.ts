@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: import.meta.env.VITE_API_URL,
+  baseUrl: `https://mini-erp-backend-delta.vercel.app/api`,
 
   prepareHeaders: (headers) => {
     const token = localStorage.getItem("accessToken");
